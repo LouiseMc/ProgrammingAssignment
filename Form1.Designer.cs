@@ -1,6 +1,6 @@
-﻿namespace GroupAssignment
+﻿namespace Prototype
 {
-    partial class FormRegisterUser
+    partial class formLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,160 +28,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelFirstName = new System.Windows.Forms.Label();
-            this.labelSurname = new System.Windows.Forms.Label();
-            this.labelEmail = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.labelUsername = new System.Windows.Forms.Label();
             this.labelPassword = new System.Windows.Forms.Label();
-            this.labelVerifyPassword = new System.Windows.Forms.Label();
-            this.textBoxFirstName = new System.Windows.Forms.TextBox();
-            this.textBoxSurname = new System.Windows.Forms.TextBox();
-            this.textBoxEmail = new System.Windows.Forms.TextBox();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.textBoxVerifyPassword = new System.Windows.Forms.TextBox();
-            this.buttonRegister = new System.Windows.Forms.Button();
+            this.labelForgotUsername = new System.Windows.Forms.Label();
+            this.labelForgotPassword = new System.Windows.Forms.Label();
+            this.buttonLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelFirstName
+            // button1
             // 
-            this.labelFirstName.AutoSize = true;
-            this.labelFirstName.BackColor = System.Drawing.SystemColors.Control;
-            this.labelFirstName.Location = new System.Drawing.Point(86, 19);
-            this.labelFirstName.Name = "labelFirstName";
-            this.labelFirstName.Size = new System.Drawing.Size(63, 13);
-            this.labelFirstName.TabIndex = 0;
-            this.labelFirstName.Text = "First Name: ";
-            this.labelFirstName.Click += new System.EventHandler(this.label1_Click);
+            this.button1.Location = new System.Drawing.Point(113, 297);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Login";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // labelSurname
+            // button2
             // 
-            this.labelSurname.AutoSize = true;
-            this.labelSurname.BackColor = System.Drawing.SystemColors.Control;
-            this.labelSurname.Location = new System.Drawing.Point(86, 59);
-            this.labelSurname.Name = "labelSurname";
-            this.labelSurname.Size = new System.Drawing.Size(55, 13);
-            this.labelSurname.TabIndex = 1;
-            this.labelSurname.Text = "Surname: ";
-            this.labelSurname.Click += new System.EventHandler(this.label2_Click);
+            this.button2.Location = new System.Drawing.Point(207, 297);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // labelEmail
+            // textBoxUsername
             // 
-            this.labelEmail.AutoSize = true;
-            this.labelEmail.BackColor = System.Drawing.SystemColors.Control;
-            this.labelEmail.Location = new System.Drawing.Point(86, 103);
-            this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(38, 13);
-            this.labelEmail.TabIndex = 2;
-            this.labelEmail.Text = "Email: ";
-            this.labelEmail.Click += new System.EventHandler(this.label3_Click);
+            this.textBoxUsername.Location = new System.Drawing.Point(113, 36);
+            this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.Size = new System.Drawing.Size(125, 20);
+            this.textBoxUsername.TabIndex = 3;
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
-            this.labelUsername.BackColor = System.Drawing.SystemColors.Control;
-            this.labelUsername.Location = new System.Drawing.Point(86, 148);
+            this.labelUsername.Location = new System.Drawing.Point(34, 36);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(61, 13);
-            this.labelUsername.TabIndex = 3;
-            this.labelUsername.Text = "Username: ";
-            this.labelUsername.Click += new System.EventHandler(this.label4_Click);
+            this.labelUsername.Size = new System.Drawing.Size(58, 13);
+            this.labelUsername.TabIndex = 4;
+            this.labelUsername.Text = "Username:";
+            this.labelUsername.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(86, 188);
+            this.labelPassword.Location = new System.Drawing.Point(34, 82);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(59, 13);
-            this.labelPassword.TabIndex = 4;
-            this.labelPassword.Text = "Password: ";
-            this.labelPassword.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // labelVerifyPassword
-            // 
-            this.labelVerifyPassword.AutoSize = true;
-            this.labelVerifyPassword.Location = new System.Drawing.Point(86, 230);
-            this.labelVerifyPassword.Name = "labelVerifyPassword";
-            this.labelVerifyPassword.Size = new System.Drawing.Size(88, 13);
-            this.labelVerifyPassword.TabIndex = 5;
-            this.labelVerifyPassword.Text = "Verify Password: ";
-            // 
-            // textBoxFirstName
-            // 
-            this.textBoxFirstName.Location = new System.Drawing.Point(195, 19);
-            this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(157, 20);
-            this.textBoxFirstName.TabIndex = 6;
-            this.textBoxFirstName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBoxSurname
-            // 
-            this.textBoxSurname.Location = new System.Drawing.Point(195, 59);
-            this.textBoxSurname.Name = "textBoxSurname";
-            this.textBoxSurname.Size = new System.Drawing.Size(157, 20);
-            this.textBoxSurname.TabIndex = 7;
-            // 
-            // textBoxEmail
-            // 
-            this.textBoxEmail.Location = new System.Drawing.Point(195, 103);
-            this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(157, 20);
-            this.textBoxEmail.TabIndex = 8;
-            // 
-            // textBoxUsername
-            // 
-            this.textBoxUsername.Location = new System.Drawing.Point(195, 148);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(157, 20);
-            this.textBoxUsername.TabIndex = 9;
-            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.labelPassword.Size = new System.Drawing.Size(56, 13);
+            this.labelPassword.TabIndex = 5;
+            this.labelPassword.Text = "Password:";
+            this.labelPassword.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(195, 188);
+            this.textBoxPassword.Location = new System.Drawing.Point(113, 82);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(157, 20);
-            this.textBoxPassword.TabIndex = 10;
+            this.textBoxPassword.Size = new System.Drawing.Size(125, 20);
+            this.textBoxPassword.TabIndex = 6;
             // 
-            // textBoxVerifyPassword
+            // labelForgotUsername
             // 
-            this.textBoxVerifyPassword.Location = new System.Drawing.Point(195, 227);
-            this.textBoxVerifyPassword.Name = "textBoxVerifyPassword";
-            this.textBoxVerifyPassword.Size = new System.Drawing.Size(157, 20);
-            this.textBoxVerifyPassword.TabIndex = 11;
+            this.labelForgotUsername.AutoSize = true;
+            this.labelForgotUsername.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelForgotUsername.Location = new System.Drawing.Point(259, 39);
+            this.labelForgotUsername.Name = "labelForgotUsername";
+            this.labelForgotUsername.Size = new System.Drawing.Size(125, 13);
+            this.labelForgotUsername.TabIndex = 7;
+            this.labelForgotUsername.Text = "Forgot Username/ Log in";
             // 
-            // buttonRegister
+            // labelForgotPassword
             // 
-            this.buttonRegister.Location = new System.Drawing.Point(277, 279);
-            this.buttonRegister.Name = "buttonRegister";
-            this.buttonRegister.Size = new System.Drawing.Size(75, 23);
-            this.buttonRegister.TabIndex = 12;
-            this.buttonRegister.Text = "Register";
-            this.buttonRegister.UseVisualStyleBackColor = true;
-            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
+            this.labelForgotPassword.AutoSize = true;
+            this.labelForgotPassword.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelForgotPassword.Location = new System.Drawing.Point(259, 85);
+            this.labelForgotPassword.Name = "labelForgotPassword";
+            this.labelForgotPassword.Size = new System.Drawing.Size(86, 13);
+            this.labelForgotPassword.TabIndex = 8;
+            this.labelForgotPassword.Text = "Forgot Password";
             // 
-            // FormRegisterUser
+            // buttonLogin
+            // 
+            this.buttonLogin.Location = new System.Drawing.Point(163, 141);
+            this.buttonLogin.Name = "buttonLogin";
+            this.buttonLogin.Size = new System.Drawing.Size(75, 23);
+            this.buttonLogin.TabIndex = 9;
+            this.buttonLogin.Text = "Login";
+            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
+            // 
+            // formLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(558, 331);
-            this.Controls.Add(this.buttonRegister);
-            this.Controls.Add(this.textBoxVerifyPassword);
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(429, 255);
+            this.Controls.Add(this.buttonLogin);
+            this.Controls.Add(this.labelForgotPassword);
+            this.Controls.Add(this.labelForgotUsername);
             this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxUsername);
-            this.Controls.Add(this.textBoxEmail);
-            this.Controls.Add(this.textBoxSurname);
-            this.Controls.Add(this.textBoxFirstName);
-            this.Controls.Add(this.labelVerifyPassword);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUsername);
-            this.Controls.Add(this.labelEmail);
-            this.Controls.Add(this.labelSurname);
-            this.Controls.Add(this.labelFirstName);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "FormRegisterUser";
-            this.Text = "Register New User Account";
+            this.Controls.Add(this.textBoxUsername);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Name = "formLogin";
+            this.Text = "Please Enter Your Login Details";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -189,20 +145,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label labelFirstName;
-        private System.Windows.Forms.Label labelSurname;
-        private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBoxUsername;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label labelPassword;
-        private System.Windows.Forms.Label labelVerifyPassword;
-        private System.Windows.Forms.TextBox textBoxFirstName;
-        private System.Windows.Forms.TextBox textBoxSurname;
-        private System.Windows.Forms.TextBox textBoxEmail;
-        private System.Windows.Forms.TextBox textBoxUsername;
         private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.TextBox textBoxVerifyPassword;
-        private System.Windows.Forms.Button buttonRegister;
+        private System.Windows.Forms.Label labelForgotUsername;
+        private System.Windows.Forms.Label labelForgotPassword;
+        private System.Windows.Forms.Button buttonLogin;
     }
 }
 
