@@ -1,0 +1,9 @@
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\bin\Debug\GroupAssignment.exe.config
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\bin\Debug\GroupAssignment.exe
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\bin\Debug\GroupAssignment.pdb
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.FormRegisterUser.resources
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.FormManagersAccount.resources
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.Properties.Resources.resources
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.csproj.GenerateResource.Cache
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.exe
+I:\Year2\Programming\C#\Group Assignment\GroupAssignment\GroupAssignment\obj\Debug\GroupAssignment.pdb
